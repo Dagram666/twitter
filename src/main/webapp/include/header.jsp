@@ -32,7 +32,7 @@
                 <a class="nav-link " href="${pageContext.request.contextPath}/login.jsp">Log in</a>
                     </c:when>
                     <c:otherwise>
-                    <a class="nav-link " href="${pageContext.request.contextPath}/logout.jsp">Log out</a>
+                    <a class="nav-link " href="${pageContext.request.contextPath}/logout">Log out</a>
                     </c:otherwise>
                 </c:choose>
             </li>

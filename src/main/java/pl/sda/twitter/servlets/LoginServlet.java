@@ -1,8 +1,7 @@
 package pl.sda.twitter.servlets;
 
-import org.omg.CosNaming.BindingIterator;
 import pl.sda.twitter.services.UserService;
-import pl.sda.twitter.test.TbUser;
+import pl.sda.twitter.persistance.entities.TbUser;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

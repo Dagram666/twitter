@@ -1,0 +1,28 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- JDBC Database connection settings -->
+
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
+        <property name="connection.url">jdbc:mysql://remotemysql.com:3306/79GmxBJ1aR</property>
+
+        <property name="connection.username">79GmxBJ1aR</property>
+
+        <property name="connection.password">stHEaAi4FP</property>
+
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <property name="show_sql">true</property>
+        <mapping class="pl.sda.twitter.persistance.entities.TbUser"/>
+
+    </session-factory>
+
+</hibernate-configuration>
